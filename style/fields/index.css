@@ -1,3 +1,5 @@
+@import url("droparea.css");
+
 input,
 textarea,
 select {
@@ -21,6 +23,7 @@ label {
 
 /* Alguns navegadores não suportam o pseudo elemento :focus-within */
 input:focus,
+input[type="date"]:focus,
 textarea:focus,
 select:focus {
     outline: .25rem solid var(--surface-secondary);
